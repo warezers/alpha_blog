@@ -12,6 +12,9 @@ $navbar-default-bg: #4367b1;
 .dropdown-menu{
   background-color: #4467b0;
 }
+.dropdown-menu li a{
+  color: #fff;
+}
 #logo {
     float: left;
 	font-size: 1.7em;
@@ -28,6 +31,7 @@ $navbar-default-bg: #4367b1;
 .jumbotron  {
   background-image: asset-url('netwo.jpg');
   background-size: cover;
+  background-position: center;
   height: 580px;
 }
 .jumbotron h2{
